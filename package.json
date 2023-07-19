@@ -1,0 +1,16 @@
+{
+  "name": "typescript-eslint-issue-7211",
+  "version": "1.0.0",
+  "description": "Minimal reproduction repo for https://github.com/typescript-eslint/typescript-eslint/issues/7211",
+  "scripts": {
+    "lint": "eslint . --ext .ts --max-warnings 0 --ignore-path .gitignore"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "6.1.0",
+    "@typescript-eslint/parser": "6.1.0",
+    "@vue/eslint-config-typescript": "11.0.3",
+    "eslint": "8.45.0",
+    "eslint-plugin-vue": "9.15.1"
+  },
+  "license": "MIT"
+}
